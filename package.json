@@ -1,0 +1,26 @@
+{
+  "name": "cassandra",
+  "version": "1.0.0",
+  "description": "Exemplo de CRUD usando o Cassandra com NodeJS apresentado nas aulas de Bancos de Dados II, do curso de ADS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banco-II-2020-1/Crud-Cassandra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Banco-II-2020-1/Crud-Cassandra/issues"
+  },
+  "homepage": "https://github.com/Banco-II-2020-1/Crud-Cassandra#readme",
+  "dependencies": {
+    "cassandra-driver": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
